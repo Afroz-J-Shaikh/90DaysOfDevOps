@@ -4,6 +4,7 @@
 * `ps -aux | head -n 10` - List running processes(top 10 lines).
 ![snapshot](images/psaux.png)
 * `pgrep -x sshd` - Get the process id by process name.
+
 ![snapshot](images/pgrep.png)
 
 ## Service commands
@@ -26,6 +27,7 @@ It is running now lets stop it. And try to connect to localhost.
 ![snapshot](images/stopservice.png)
 
 Giving error 
+
 ![snapshot](images/error.png)
 
 Let's view logs and check
