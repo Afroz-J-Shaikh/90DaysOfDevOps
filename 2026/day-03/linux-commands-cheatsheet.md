@@ -11,7 +11,7 @@
 ## File System
 
 - `pwd` - Display the path of current working directory.
-- `wx X` - Display the word count of X.
+- `wc X` - Display the word count of X.
 - `head X` - Display the first 10 lines of X.
 - `tail X` - Display the last 10 lines of X.
 - `grep patt path/to/src` - Search for a text pattern in file.
