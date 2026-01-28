@@ -2,7 +2,7 @@
 
 ## Process commands
 * `ps -aux | head -n 10` - List running processes(top 10 lines).
-![snapshot] (images/psaux.png)
+![snapshot](images/psaux.png)
 * `pgrep -x sshd` - Get the process id by process name.
 
 ## Service commands
