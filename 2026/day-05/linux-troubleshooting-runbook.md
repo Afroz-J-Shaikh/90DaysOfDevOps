@@ -34,7 +34,7 @@
 * Command : `ps -o pid,pcpu,pmem,comm -p $(pidof sshd)`
 
   Output : `PID %CPU %MEM COMMAND`
-            1415  0.0  0.0 sshd
+            `1415  0.0  0.0 sshd`
 
   Observation : Process running and CPU & Memory usage is negligible.
 
@@ -64,7 +64,7 @@
 * Command : `sudo ss -tulpn | grep  sshd`
 
   Output : `tcp   LISTEN 0      4096         0.0.0.0:22         0.0.0.0:*    users:(("sshd",pid=1405,fd=3),`
-            ("systemd",pid=1,fd=176))
+            `("systemd",pid=1,fd=176))`
   
   Observation : ssh is listening on port 22.
 
