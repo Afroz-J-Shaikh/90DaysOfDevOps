@@ -1,0 +1,4 @@
+Hi, I am afroz
+I am a devops enthusiast
+Today is day06 of learning linux
+Learn using tee command
