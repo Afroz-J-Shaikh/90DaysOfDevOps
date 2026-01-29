@@ -34,7 +34,6 @@
 * Command : `ps -o pid,pcpu,pmem,comm -p $(pidof sshd)`
 
   Output : `PID %CPU %MEM COMMAND`
-  
             `1415  0.0  0.0 sshd`
 
   Observation : Process running and CPU & Memory usage is negligible.
